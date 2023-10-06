@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.limitar-secao {
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.topo {
+    padding: 35px 0;
+    background-color: #2f86d6;
+    font-weight: 600;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.logo div {
+    position: absolute;
+    top: 0;
+    left: 95px;
+}
+
+.logo div p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.nav-bar {
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+
+.nav-bar a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    padding: 7px;
+}
+
+.nav-bar a:hover {
+    background-color: #fff;
+    color: #2f86d6;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 100px auto;
+    max-width: 1124px;
+
+}
+
+.elemento-vazio {
+    border: none;
+    visibility: hidden;
+}
+
+th, .fundo-cinza {
+    background-color: #f1f3f7;
+}
+
+th, td {
+    text-align: center;
+    border: 1px solid #e6e6e6;
+}
+
+table th p {
+    font-size: 11px;
+    color: #a89f9f;
+    width: 170px;
+    padding: 10px 0;
+}
+
+th {
+    padding: 5px 7px;
+}
+
+.fundo-cinza h2 {
+    font-size: 13px;
+    text-align: start;
+}
+
+td {
+    font-size: 15px;
+    padding: 20px;
+    font-weight: 500;
+}
+
+.marcacao-azul {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #2f86d6;
+    margin: 0 auto;
+}
+
+.rodape {
+    background-color: #2f86d6;
+    padding: 70px 0 40px 0;
+    font-weight: 600;
+}
+
+.rodape .logo {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.info-contato {
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+}
+
+.copyright {
+    background-color: #f1f3f7;
+    width: 100vw;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.copyright span {
+    color: #2f86d6;
+}
